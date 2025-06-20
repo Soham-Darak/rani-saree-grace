@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,16 +53,46 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
+				cream: {
+					50: '#FEFCFA',
+					100: '#FDF9F5',
+					200: '#F8F6F0',
+					300: '#F3F0E8',
+					400: '#E8E2D5',
+					500: '#DDD4C2',
+					600: '#C9B89E',
+					700: '#B5A082',
+					800: '#968066',
+					900: '#7A6854'
+				},
+				burgundy: {
+					50: '#FDF2F4',
+					100: '#FCE7EA',
+					200: '#F9D0D6',
+					300: '#F4A8B4',
+					400: '#ED7689',
+					500: '#E34865',
+					600: '#D02750',
+					700: '#B01D42',
+					800: '#941A3E',
+					900: '#8B1538'
+				},
+				sage: {
+					50: '#F7F8F7',
+					100: '#E8EBE8',
+					200: '#D1D7D1',
+					300: '#A8B5A8',
+					400: '#7A8F7A',
+					500: '#5A725A',
+					600: '#475B47',
+					700: '#3A4A3A',
+					800: '#303F30',
+					900: '#283528'
 				}
+			},
+			fontFamily: {
+				serif: ['Playfair Display', 'serif'],
+				sans: ['Inter', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +115,22 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.6s ease-out'
 			}
 		}
 	},
