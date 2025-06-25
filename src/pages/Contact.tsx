@@ -109,14 +109,14 @@ const Contact = () => {
                   href="mailto:contact@raniscollection.com"
                   className="text-burgundy-600 hover:text-burgundy-700 transition-colors"
                 >
-                  contact@raniscollection.com
+                  raniscollection57@gmail.com
                 </a>
                 <p className="text-sage-700 mb-2 mt-4">Customer Support:</p>
                 <a
                   href="mailto:support@raniscollection.com"
                   className="text-burgundy-600 hover:text-burgundy-700 transition-colors"
                 >
-                  support@raniscollection.com
+                  raniscollection57@gmail.com
                 </a>
               </div>
 
@@ -126,10 +126,10 @@ const Contact = () => {
                 </h3>
                 <p className="text-sage-700 mb-2">Customer Service:</p>
                 <a
-                  href="tel:+911234567890"
+                  href="tel:+919860805057"
                   className="text-burgundy-600 hover:text-burgundy-700 transition-colors"
                 >
-                  +91 12345 67890
+                  +91 9860805057
                 </a>
                 <p className="text-sage-700 text-sm mt-2">
                   Mon-Sat: 9:00 AM - 7:00 PM IST
@@ -143,9 +143,9 @@ const Contact = () => {
               </h3>
               <address className="text-sage-700 not-italic">
                 Rani's Collection<br />
-                123 Heritage Lane<br />
-                Fashion District<br />
-                Mumbai, Maharashtra 400001<br />
+                Rokadiya Hanuman Colony,<br/>
+                near Krishna Hospital<br />
+                Ch. Sambhaji Nagar, Maharashtra 431001<br />
                 India
               </address>
               <p className="text-sage-700 text-sm mt-3">
