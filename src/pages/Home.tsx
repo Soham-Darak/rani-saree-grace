@@ -73,11 +73,10 @@ const Home = () => {
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-2">
                       <span className="text-lg font-semibold text-burgundy-700">
-                        ₹{product.price.toLocaleString()}
+                      
                       </span>
                       {product.originalPrice && (
                         <span className="text-sm text-sage-500 line-through">
-                          ₹{product.originalPrice.toLocaleString()}
                         </span>
                       )}
                     </div>

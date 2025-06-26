@@ -45,7 +45,7 @@ const Footer = () => {
               Connect With Us
             </h4>
             <p className="text-cream-200 text-sm">
-              contact@raniscollection.com
+              raniscollection57@gmail.com
             </p>
             <div className="flex space-x-4">
               <a
