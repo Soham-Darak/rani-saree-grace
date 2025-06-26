@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { ShoppingCart } from 'lucide-react';
@@ -8,7 +7,7 @@ const Navbar = () => {
   const location = useLocation();
   const { items } = useCart();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  
+
   const navItems = [
     { name: 'Home', path: '/' },
     { name: 'Shop', path: '/shop' },
@@ -22,8 +21,13 @@ const Navbar = () => {
     <nav className="bg-cream-50 border-b border-cream-300 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
-          <Link to="/" className="flex-shrink-0">
+          {/* Logo + Brand Name */}
+          <Link to="/" className="flex items-center space-x-2">
+            <img
+              src="/RC_Logo.jpg"
+              alt="Rani's Collection Logo"
+              className="h-10 w-10 object-contain rounded-full shadow-sm"
+            />
             <h1 className="text-2xl md:text-3xl font-serif font-bold text-burgundy-900 hover:text-burgundy-700 transition-colors">
               Rani's Collection
             </h1>
